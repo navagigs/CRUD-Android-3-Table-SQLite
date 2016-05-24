@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.navagiaginasta.latihansqlite">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".CreateData"
+            android:label="Latihan SQL LITE" />
+        <activity
+            android:name=".CreateDataMhs"
+            android:label="Latihan SQL LITE" />
+        <activity
+            android:name=".CreateDataDsn"
+            android:label="Latihan SQL LITE" />
+        <activity
+            android:name=".Menu"
+            android:label="Latihan SQL LITE">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".ViewData"
+            android:label="Latihan SQL LITE" />
+        <activity
+            android:name=".ViewDataMhs"
+            android:label="Latihan SQL LITE" />
+        <activity
+            android:name=".ViewDataDsn"
+            android:label="Latihan SQL LITE" />
+        <activity
+            android:name=".EditData"
+            android:label="Latihan SQL LITE" />
+        <activity
+            android:name=".EditDataMhs"
+            android:label="Latihan SQL LITE" />
+        <activity
+            android:name=".EditDataDsn"
+            android:label="Latihan SQL LITE" />
+    </application>
+
+</manifest>

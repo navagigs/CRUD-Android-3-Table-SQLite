@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/nama_app"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:text="SQLITE"
+        android:layout_marginTop="45dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:id="@+id/button_tambah"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/nama_app"
+        android:text="TAMBAH"
+        />
+
+    <Button
+        android:id="@+id/button_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/button_tambah"
+        android:text="VIEW DATA"
+        />
+
+    <Button
+        android:id="@+id/button_tambahMhs"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TAMBAH MAHASISWA"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:id="@+id/button_viewMhs"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="VIEW DATA MAHASISWA"
+        android:layout_below="@+id/button_tambahMhs"
+        android:layout_alignStart="@+id/button_tambahMhs" />
+
+
+    <Button
+        android:id="@+id/button_tambahDsn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+            android:text="TAMBAH DOSEN"
+        android:layout_above="@+id/button_viewDsn"
+        android:layout_alignStart="@+id/button_view" />
+
+    <Button
+        android:id="@+id/button_viewDsn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="VIEW DATA DOSEN"
+        android:layout_marginBottom="51dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignEnd="@+id/button_tambahMhs" />
+</RelativeLayout>

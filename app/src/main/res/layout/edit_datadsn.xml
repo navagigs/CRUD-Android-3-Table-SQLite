@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:id="@+id/text_id_dosen"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="LATIHAN SQL LITE"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal= "true"
+        android:layout_marginTop="15dp"
+        android:background="#0000ff"/>
+
+    <EditText
+        android:id="@+id/editText_nama"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:ems="10"
+        android:background="#afffffff"
+        android:layout_below="@id/text_id_dosen"
+        android:textIsSelectable="false">
+        <requestFocus />
+    </EditText>
+
+    <EditText
+        android:id="@+id/editText_nip"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:ems="10"
+        android:background="#afffffff"
+        android:layout_below="@id/editText_nama">
+        <requestFocus />
+    </EditText>
+
+    <EditText
+        android:id="@+id/editText_matkul"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:ems="10"
+        android:background="#afffffff"
+        android:layout_below="@id/editText_nip">
+        <requestFocus />
+    </EditText>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_below="@id/editText_matkul">
+        <Button
+            android:id="@+id/button_save_update"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="SAVE"
+            />
+
+        <Button
+            android:id="@+id/button_cancel_update"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="CANCEL"
+            />    </LinearLayout>
+
+</LinearLayout>
